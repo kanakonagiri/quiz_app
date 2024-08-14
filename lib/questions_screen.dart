@@ -39,7 +39,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
           children: [
             Text(currentQuestion.text,
                 style: GoogleFonts.roboto(
-                    color: Color.fromRGBO(197, 151, 211, 1),
+                    color: const Color.fromRGBO(197, 151, 211, 1),
                     fontSize: 24,
                     fontWeight: FontWeight.bold),
                 textAlign: TextAlign.center),
